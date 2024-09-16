@@ -1,0 +1,139 @@
+*{
+    color: aliceblue;
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #00012d;
+}
+.score-board{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: flex;
+margin: 0 auto;
+background-color: #808bff;
+height: 400px;
+width: 400px;
+flex-wrap: wrap;
+border-radius: 6px;
+}
+.game-over{
+    text-align: center;
+    padding: 5px;
+    background-color: #808bff;
+    border:solid #5664ff 2px;
+    border-radius: 8px;
+    font-size:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 10000;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:500px;
+    height: 200px;
+}
+.tile{
+    background-color: #83a8ff;
+    width:90px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 6px;
+    font-size:210%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x2{
+
+    background-color: hsl(0, 100%, 78%);
+    color: rgb(212, 40, 25);
+    
+}
+.x4{
+
+    background-color: hsl(22, 100%, 68%);
+    color: rgb(254, 217, 214);
+    
+}
+
+.x8{
+
+    background-color: hsl(52, 100%, 43%);
+    color: rgb(255, 255, 255);
+    
+}
+
+.x16{
+
+    background-color: hsl(81, 100%, 61%);
+    color: rgb(45, 45, 45);
+    
+}
+
+.x32{
+
+    background-color: hsl(157, 94%, 48%);
+    color: rgb(255, 255, 255);
+    
+}
+
+.x64{
+
+    background-color: hwb(177 23% 0%);
+    color: rgb(5, 75, 6);
+    
+}
+.x128{
+
+    background-color: hsl(258, 92%, 58%);
+    color: rgb(255, 255, 255);
+    
+}
+.x256{
+
+    background-color: hsl(267, 97%, 35%);
+    color: rgb(255, 203, 240);
+    
+}
+.x512{
+
+    background-color: hsl(301, 70%, 46%);
+    color: rgb(255, 255, 255);
+    
+}
+.x1024{
+
+    background-color: hsl(337, 82%, 40%);
+    color: rgb(255, 255, 255);
+    
+}
+.x2048{
+
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    
+}
+.x4096{
+
+    background-color:aquamarine;
+    color: rgb(56, 56, 56);
+    
+}
+.x8192{
+
+    background-color:orangered;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+
